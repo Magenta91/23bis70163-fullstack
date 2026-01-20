@@ -1,0 +1,88 @@
+.product-form-container {
+  background: white;
+  border-radius: 0;
+  padding: 20px;
+  box-shadow: none;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+}
+
+.product-form-card h3 {
+  margin: 0 0 20px 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.product-form-card .form-group {
+  margin-bottom: 16px;
+}
+
+.product-form-card label {
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.product-form-card input,
+.product-form-card textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.product-form-card input:focus,
+.product-form-card textarea:focus {
+  outline: none;
+  border-color: #000;
+  box-shadow: none;
+}
+
+.product-form-card textarea {
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.form-actions button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn-submit {
+  background: #000;
+  color: white;
+  flex: 1;
+  transition: all 0.3s;
+  border-radius: 0;
+}
+
+.btn-submit:hover {
+  opacity: 1;
+  box-shadow: none;
+  background: #333;
+}
+
+.btn-cancel {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.btn-cancel:hover {
+  opacity: 0.9;
+}
